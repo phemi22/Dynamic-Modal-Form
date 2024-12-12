@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.5px;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+.modal-form-container{
+    width: 30%;
+    height: auto;
+    margin: 4rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem;
+}
+
+.tag-and-input-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.3rem;
+}
+
+.add-tags-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.1rem;
+}
+
+.add-tags-container h4{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4e4e4e;
+}
+
+.add-tags-container p{
+    font-size: 0.8rem;
+    color: #616161;
+}
+
+.input-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 0.1rem;
+}
+
+.input-container input{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+    border: 1px solid #e7e5e5;
+    border-radius: 0.7rem;
+    outline: none;
+}
+
+.input-container input.input-typing {
+    border: 1px solid red;
+}
+
+.input-container button{
+    width: fit-content;
+    height: auto;
+    padding: 0.6rem;
+    border: 1px solid #e7e5e5;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tag {
+    background-color: #ececec;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag span {
+    cursor: pointer;
+    margin-left: 0.5rem;
+    color: #f44336;
+}
+
+.checkbox-and-access-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+}
+
+.members-access-container{
+    width: fit-content;
+    height: auto;
+}
+
+.members-access-container p{
+    color: black;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.checkbox-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.4rem;
+}
+
+.checkbox-section label{
+    font-size: 0.8rem;
+    color: #666666;
+    font-weight: 500;
+}
+
+.checkbox-section button{
+    width: fit-content;
+    height: auto;
+    padding: 0.3rem;
+    border: 1px solid #e7e5e5;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #fcb8b8;
+    font-size: 0.7rem;
+    color: #b90404;
+}
+
+.checkbox-section input[type="checkbox"]:checked{
+    accent-color: #e90505;
+}
+
+.bottom-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.add-group-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.add-and-choose-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+    border-top: 1px dashed #8d8d8d;
+    padding-top: 1rem;
+    outline: none;
+}
+
+.add{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4rem;
+}
+
+.add h5{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.add p{
+    font-size: 0.8rem;
+    color: #666666;
+}
+
+.button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.button-container button{
+    padding: 0.5rem;
+    border: 1px solid #e7e5e5;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    color: #666666;
+}
